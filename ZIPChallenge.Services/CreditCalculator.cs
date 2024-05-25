@@ -7,6 +7,7 @@ public class CreditCalculator : ICreditCalculator
     public decimal CalculateCredit(Customer customer)
     {
         var pointsByBureauScore = GetPointsByBureauScore(customer.BureauScore);
+        if (pointsByBureauScore == 0) return 0; // Not allowed to use Zip
         var pointsByMissedPayments = GetPointsByMissedPayments(customer.MissedPaymentCount);
         var pointsByCompletedPayments = GetPointsByCompletedPayments(customer.CompletedPaymentCount);
         var totalPoints = pointsByBureauScore + pointsByMissedPayments + pointsByCompletedPayments;
