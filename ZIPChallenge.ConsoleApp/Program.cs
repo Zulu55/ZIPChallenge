@@ -42,6 +42,6 @@ internal class Program
             {
                 answer = ConsoleExtension.GetValidOptions("Do you want to continue [Y]es, [N]o?: ", options);
             } while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
-        } while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
+        } while (answer!.Equals("y", StringComparison.CurrentCultureIgnoreCase));
     }
 }
