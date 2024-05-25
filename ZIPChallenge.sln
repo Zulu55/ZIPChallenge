@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZIPChallenge.Services", "ZI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZIPChallenge.ConsoleApp", "ZIPChallenge.ConsoleApp\ZIPChallenge.ConsoleApp.csproj", "{A891BD26-A808-4BF1-999B-D99FBB4BAC3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZIPChallenge.Common", "ZIPChallenge.Common\ZIPChallenge.Common.csproj", "{1DDE212B-EEA0-4623-8679-1194E47DF637}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A891BD26-A808-4BF1-999B-D99FBB4BAC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A891BD26-A808-4BF1-999B-D99FBB4BAC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A891BD26-A808-4BF1-999B-D99FBB4BAC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDE212B-EEA0-4623-8679-1194E47DF637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDE212B-EEA0-4623-8679-1194E47DF637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDE212B-EEA0-4623-8679-1194E47DF637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDE212B-EEA0-4623-8679-1194E47DF637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
