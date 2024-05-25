@@ -68,7 +68,7 @@ public class CreditCalculator : ICreditCalculator
     {
         return bureauScore switch
         {
-            <= 500 => 0,
+            <= 450 => 0,
             <= 700 => 1,
             <= 850 => 2,
             _ => 3
