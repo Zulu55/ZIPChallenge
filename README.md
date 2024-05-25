@@ -8,4 +8,4 @@ Rund the console application to see the results
 
 To run the Unit Tests, run the UnitTests project:
 
-
+![ZIPChallengeTest](https://github.com/Zulu55/ZIPChallenge/assets/12401602/7b41965a-c089-40da-b291-31afd3c3d973)
